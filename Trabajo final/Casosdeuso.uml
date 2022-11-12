@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_ICUZwGKtEe2EUcd-s-TG7w" name="model">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_IEY2UGKtEe2EUcd-s-TG7w">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_JmneEGKtEe2EUcd-s-TG7w" name="Administrador"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_KbOK0GKtEe2EUcd-s-TG7w" name="Registrar Cuenta"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_K8Bx0GKtEe2EUcd-s-TG7w" name="Registrar Movimiento"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_v9K3UGKvEe2EUcd-s-TG7w" memberEnd="_v9OhsGKvEe2EUcd-s-TG7w _v9PIwGKvEe2EUcd-s-TG7w">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_v9NTkGKvEe2EUcd-s-TG7w" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_v9N6oGKvEe2EUcd-s-TG7w" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_v9OhsGKvEe2EUcd-s-TG7w" name="crear cuenta" type="_KbOK0GKtEe2EUcd-s-TG7w" association="_v9K3UGKvEe2EUcd-s-TG7w"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_v9PIwGKvEe2EUcd-s-TG7w" name="actor2" type="_JmneEGKtEe2EUcd-s-TG7w" association="_v9K3UGKvEe2EUcd-s-TG7w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_rmKeAGKzEe2EUcd-s-TG7w" memberEnd="_rmLFEmKzEe2EUcd-s-TG7w _rmLFE2KzEe2EUcd-s-TG7w">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_rmLFEGKzEe2EUcd-s-TG7w" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_rmLFEWKzEe2EUcd-s-TG7w" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_rmLFEmKzEe2EUcd-s-TG7w" name="registrar movimiento" type="_K8Bx0GKtEe2EUcd-s-TG7w" association="_rmKeAGKzEe2EUcd-s-TG7w"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_rmLFE2KzEe2EUcd-s-TG7w" name="cliente" type="_JmneEGKtEe2EUcd-s-TG7w" association="_rmKeAGKzEe2EUcd-s-TG7w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_qovXAGK0Ee2EUcd-s-TG7w" name="Registrar Cliente"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_tS53MGK0Ee2EUcd-s-TG7w" memberEnd="_tS8TcGK0Ee2EUcd-s-TG7w _tS8TcWK0Ee2EUcd-s-TG7w">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_tS7sYGK0Ee2EUcd-s-TG7w" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_tS7sYWK0Ee2EUcd-s-TG7w" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_tS8TcGK0Ee2EUcd-s-TG7w" name="registrar cliente" type="_qovXAGK0Ee2EUcd-s-TG7w" association="_tS53MGK0Ee2EUcd-s-TG7w"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_tS8TcWK0Ee2EUcd-s-TG7w" type="_rmKeAGKzEe2EUcd-s-TG7w" association="_tS53MGK0Ee2EUcd-s-TG7w"/>
+  </packagedElement>
+</uml:Model>
